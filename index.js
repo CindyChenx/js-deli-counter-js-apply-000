@@ -22,11 +22,11 @@ function currenLine(cindyDeli){
     return "The line is currently empty.";
   } else {
     var i
-    var out
+    var out = "The line is currently: ";
     for(i = 0; i < cindyDeli.length; i++){
-      out += (i+1) + ". " + cindyDeli[i];
+      out += (i+1) + ". " + cindyDeli[i] + " ";
     }
-    return "The line is currently: " + out;
+    return out;
   }
   
   // var i
