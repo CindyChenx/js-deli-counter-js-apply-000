@@ -16,16 +16,16 @@ function nowServing(katzDeli){
 
 var line = [ ];
 function currentLine(katzDeli) {
-    // var i = 0;
-  // for(i=0; i<katzDeli.length; i++){
-  //   line.push([i+1] + `. ` + cindyDeli[i] + ` `);
-  // }
+    var i = 0;
+  for(i=0; i<katzDeli.length; i++){
+    line.push([i+1] + `. ` + cindyDeli[i] + ` `);
+  }
   
-  // if(katzDeli === 0){
-  //   return "The line is currently empty."
-  // } else {
-  //   return (`The line is currently: ` + line);
-  // }
+  if(katzDeli === 0){
+    return "The line is currently empty."
+  } else {
+    return (`The line is currently: ` + line);
+  }
   
   
 }
