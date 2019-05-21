@@ -18,7 +18,11 @@ var deliLine = [ ];
 
 function currenLine(cindyDeli){
   
-  
+  if(cindyDeli === 0){
+    return "The line is currently empty.";
+  } else {
+    
+  }
   
   // var i
   // for(i=0; i<cindyDeli.length; i++){
