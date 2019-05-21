@@ -14,7 +14,7 @@ function nowServing(katzDeli){
   }
 }
 
-var line = [ ];
+
 function currentLine(katzDeli) {
 
 
@@ -22,6 +22,7 @@ function currentLine(katzDeli) {
   if(katzDeli === 0){
     return "The line is currently empty."
   } else {
+      var line = [ ];
       var i = 0;
       for(i=0; i<katzDeli.length; i++){
         line.push([i+1] + `. ` + cindyDeli[i] + ` `);
