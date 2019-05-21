@@ -16,7 +16,8 @@ function nowServing(katzDeli){
 
 var line = [ ];
 function currentLine(katzDeli) {
-    var i = 0;
+
+  var i = 0;
   for(i=0; i<katzDeli.length; i++){
     line.push([i+1] + `. ` + cindyDeli[i] + ` `);
   }
@@ -26,8 +27,6 @@ function currentLine(katzDeli) {
   } else {
     return (`The line is currently: ` + line);
   }
-  
-  
 }
 
   
