@@ -19,7 +19,7 @@ var deliLine = [ ];
 function currenLine(cindyDeli){
   var i
   for(i=0; i<cindyDeli.length; i++){
-    deliLine.push([i+1] + '. ' + cindyDeli[i]);
+    deliLine.push([i+1] + `. ` + cindyDeli[i]);
   }
   
   if(cindyDeli === 0){
