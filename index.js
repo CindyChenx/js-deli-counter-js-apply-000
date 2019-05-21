@@ -7,6 +7,8 @@ function takeANumber(cindyDeli, n){
 
 function nowServing(cindyDeli){
   if(cindyDeli.length === 0){
-    return 
+    return "There is nobody waiting to be served!";
+  } else {
+    
   }
 }
