@@ -25,7 +25,7 @@ function currenLine(cindyDeli){
   if(cindyDeli === 0){
     return "The line is currently empty."
   } else {
-    return ("The line is currently: " + deliLine);
+    return (`The line is currently: ` + deliLine);
   }
   
 }
