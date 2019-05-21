@@ -21,7 +21,11 @@ function currenLine(cindyDeli){
   if(cindyDeli === 0){
     return "The line is currently empty.";
   } else {
-    
+    var i
+    var out
+    for(i = 0; i < cindyDeli.length; i++){
+      out += 
+    }
   }
   
   // var i
