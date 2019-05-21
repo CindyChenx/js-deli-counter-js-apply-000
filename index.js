@@ -54,4 +54,3 @@ function currentLine(cindyDeli) {
   //   return (`The line is currently: ` + deliLine);
   // }
   
-}
