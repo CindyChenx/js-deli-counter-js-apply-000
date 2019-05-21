@@ -16,7 +16,11 @@ function nowServing(cindyDeli){
 
 function currenLine(cindyDeli){
   
-  
+  var deliLine = [ ];
+  var i = 0;
+  while(i<cindyDeli.length){
+    deliLine = `i+1.`;
+  }
   
   if(cindyDeli.length === 0){
     return "The line is currently empty.";
