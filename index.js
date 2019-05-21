@@ -28,14 +28,14 @@ function currentLine(katzDeli) {
 }
 
   
-  // var i
-  // for(i=0; i<cindyDeli.length; i++){
-  //   deliLine.push([i+1] + `. ` + cindyDeli[i]);
+  // var i = 0;
+  // for(i=0; i<katzDeli.length; i++){
+  //   line.push([i+1] + `. ` + cindyDeli[i] + ` `);
   // }
   
-  // if(cindyDeli === 0){
+  // if(katzDeli === 0){
   //   return "The line is currently empty."
   // } else {
-  //   return (`The line is currently: ` + deliLine);
+  //   return (`The line is currently: ` + line);
   // }
   
