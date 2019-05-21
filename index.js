@@ -15,28 +15,6 @@ function nowServing(cindyDeli){
 }
 
 
-function currentLine(cindyDeli){
-var outputString;
-if (line.length === 0){
-outputString = “The line is currently empty.”
-}
-else{
-outputString = “The line is currently: ”
-for(var i = 0; i < line.length ; i++){
-if (i === 0){
-
-outputString = outputString + (i+1) + “. ” + line[i];
-}
-else{
-outputString = outputString + “, ” + (i+1) + “. ” + line[i];
-}
-}
-}
-return outputString;
-}
-
-
-
 // function currenLine(cindyDeli){
   
 //   if(cindyDeli === 0){
