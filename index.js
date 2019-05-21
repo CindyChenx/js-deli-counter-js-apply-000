@@ -21,4 +21,10 @@ function currenLine(cindyDeli){
     deliLine.push([i+1] + '. ' + cindyDeli[i]);
   }
   
+  if(cindyDeli === 0){
+    return "The line is currently empty."
+  } else {
+    return ("The line is currently: " + deliLine);
+  }
+  
 }
