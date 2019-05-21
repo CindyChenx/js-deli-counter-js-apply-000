@@ -16,19 +16,7 @@ function nowServing(katzDeli){
 
 var line = [ ];
 function currentLine(katzDeli) {
-  var i = 0;
-  while (i < cindyDeli.length) {
-    line.push(` `+[i+1]+`. `  + katzDeli[i])
-    i++;
-  }
-  if (katzDeli.length === 0) {
-    return "The line is currently empty.";
-  } else
-  return(`The line is currently:` + line);
-}
-
-  
-  // var i = 0;
+    // var i = 0;
   // for(i=0; i<katzDeli.length; i++){
   //   line.push([i+1] + `. ` + cindyDeli[i] + ` `);
   // }
@@ -39,3 +27,8 @@ function currentLine(katzDeli) {
   //   return (`The line is currently: ` + line);
   // }
   
+  
+}
+
+  
+
