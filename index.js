@@ -16,6 +16,8 @@ function nowServing(cindyDeli){
 
 function currenLine(cindyDeli){
   
+  
+  
   var deliLine = [ ];
   var i = 0;
   while(i<cindyDeli.length){
