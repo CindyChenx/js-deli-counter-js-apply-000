@@ -15,10 +15,10 @@ function nowServing(katzDeli){
 }
 
 var line = [ ];
-function currentLine(cindyDeli) {
-  let i = 0;
+function currentLine(katzDeli) {
+  var i = 0;
   while (i < cindyDeli.length) {
-    line.push(` `+[i+1]+`. `  + cindyDeli[i])
+    line.push(` `+[i+1]+`. `  + katzDeli[i])
     i++;
   }
   if (katzDeli.length === 0) {
