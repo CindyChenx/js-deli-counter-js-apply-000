@@ -15,18 +15,18 @@ function nowServing(cindyDeli){
 }
 
 
-function currenLine(cindyDeli){
+// function currenLine(cindyDeli){
   
-  if(cindyDeli === 0){
-    return "The line is currently empty.";
-  } else {
-    var i
-    var out = "The line is currently: ";
-    for(i = 0; i < cindyDeli.length; i++){
-      out += (i+1) + ". " + cindyDeli[i] + " ";
-    }
-    return out;
-  }
+//   if(cindyDeli === 0){
+//     return "The line is currently empty.";
+//   } else {
+//     var i
+//     var out = "The line is currently: ";
+//     for(i = 0; i < cindyDeli.length; i++){
+//       out += (i+1) + ". " + cindyDeli[i] + " ";
+//     }
+//     return out;
+//   }
   
   // var i
   // for(i=0; i<cindyDeli.length; i++){
