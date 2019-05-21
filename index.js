@@ -17,14 +17,16 @@ function nowServing(katzDeli){
 var line = [ ];
 function currentLine(katzDeli) {
 
-  var i = 0;
-  for(i=0; i<katzDeli.length; i++){
-    line.push([i+1] + `. ` + cindyDeli[i] + ` `);
-  }
+
   
   if(katzDeli === 0){
     return "The line is currently empty."
   } else {
+      var i = 0;
+      for(i=0; i<katzDeli.length; i++){
+        line.push([i+1] + `. ` + cindyDeli[i] + ` `);
+      }
+  
     return (`The line is currently: ` + line);
   }
 }
