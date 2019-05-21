@@ -17,17 +17,20 @@ function nowServing(cindyDeli){
 var deliLine = [ ];
 
 function currenLine(cindyDeli){
-  var i
-  for(i=0; i<cindyDeli.length; i++){
-    deliLine.push([i+1] + `. ` + cindyDeli[i]);
-  }
   
-  return (`The line is currently: ` + deliLine);
   
-  if(cindyDeli === 0){
-    return "The line is currently empty."
-  } else {
-    return (`The line is currently: ` + deliLine);
-  }
+  
+  // var i
+  // for(i=0; i<cindyDeli.length; i++){
+  //   deliLine.push([i+1] + `. ` + cindyDeli[i]);
+  // }
+  
+  // return (`The line is currently: ` + deliLine);
+  
+  // if(cindyDeli === 0){
+  //   return "The line is currently empty."
+  // } else {
+  //   return (`The line is currently: ` + deliLine);
+  // }
   
 }
