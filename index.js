@@ -14,10 +14,11 @@ function nowServing(cindyDeli){
   }
 }
 
+var line = [ ];
 function currentLine(cindyDeli) {
   let i = 0;
-  while (i < katzDeli.length) {
-    line.push(` `+[i+1]+`. `  + katzDeli[i])
+  while (i < cindyDeli.length) {
+    line.push(` `+[i+1]+`. `  + cindyDeli[i])
     i++;
   }
   if (katzDeli.length === 0) {
