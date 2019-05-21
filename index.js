@@ -14,10 +14,11 @@ function nowServing(cindyDeli){
   }
 }
 
+var deliLine = [ ];
 function currenLine(cindyDeli){
   var i
   for(i=0; i<cindyDeli.length; i++){
-    
+    deliLine.push('');
   }
   
 }
