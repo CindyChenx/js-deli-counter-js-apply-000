@@ -9,7 +9,7 @@ function nowServing(cindyDeli){
   if(cindyDeli.length === 0){
     return "There is nobody waiting to be served!";
   } else {
-    return `Currently serving ${cindyDeli[0]}.`;
+    return `Currently serving ${cindyDeli.shift()}.`;
     
   }
 }
