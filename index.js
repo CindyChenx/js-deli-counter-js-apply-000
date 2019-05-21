@@ -24,7 +24,7 @@ function currenLine(cindyDeli){
     var i
     var out
     for(i = 0; i < cindyDeli.length; i++){
-      out += (i+1) + ". " + cindyDeli[i]
+      out += (i+1) + ". " + cindyDeli[i];
     }
   }
   
