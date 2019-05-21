@@ -14,7 +14,6 @@ function nowServing(cindyDeli){
   }
 }
 
-var deliLine = [ ];
 
 function currenLine(cindyDeli){
   
