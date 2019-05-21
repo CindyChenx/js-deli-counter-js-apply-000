@@ -13,3 +13,7 @@ function nowServing(cindyDeli){
     
   }
 }
+
+function currenLine(){
+  
+}
