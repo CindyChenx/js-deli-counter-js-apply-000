@@ -24,10 +24,10 @@ function currenLine(cindyDeli){
   
   return (`The line is currently: ` + deliLine);
   
-  // if(cindyDeli === 0){
-  //   return "The line is currently empty."
-  // } else {
-  //   return (`The line is currently: ` + deliLine);
-  // }
+  if(cindyDeli === 0){
+    return "The line is currently empty."
+  } else {
+    return (`The line is currently: ` + deliLine);
+  }
   
 }
