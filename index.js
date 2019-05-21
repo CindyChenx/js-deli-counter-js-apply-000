@@ -1,4 +1,4 @@
-var cindyDeli = [ ];
+var katzDeli = [ ];
 
 function takeANumber(cindyDeli, n){
   cindyDeli.push(`${n}`);
