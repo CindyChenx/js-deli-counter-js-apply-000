@@ -10,5 +10,6 @@ function nowServing(cindyDeli){
     return "There is nobody waiting to be served!";
   } else {
     return `Currently serving ${cindyDeli[0]}.`;
+    
   }
 }
