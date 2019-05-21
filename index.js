@@ -20,6 +20,7 @@ function currenLine(cindyDeli){
   var i = 0;
   while(i<cindyDeli.length){
     deliLine = `${i+1}. + ${cindyDeli[i]}`;
+    i++;
   }
   
   if(cindyDeli.length === 0){
