@@ -26,6 +26,7 @@ function currenLine(cindyDeli){
     for(i = 0; i < cindyDeli.length; i++){
       out += (i+1) + ". " + cindyDeli[i];
     }
+    return "The line is currently: " + out;
   }
   
   // var i
